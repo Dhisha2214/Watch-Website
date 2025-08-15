@@ -1,0 +1,22 @@
+.span {
+  font-size: xx-large;
+  font-weight: 800;
+}
+.search-input {
+  background-color: #fffbfb;   /* Blue background */
+  color: #0056b3;               /* White text */
+  border: 1px solid #0056b3;  /* Darker blue border */
+}
+
+/* Placeholder text */
+.search-input::placeholder {
+  color: #4b4a4a2d;
+}
+
+/* On focus */
+.search-input:focus {
+  background-color:white; /* Slightly darker blue */
+  outline: none;
+  border-color: #007bff;
+  box-shadow: none; /* Remove Bootstrap glow */
+}
